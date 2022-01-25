@@ -12,14 +12,15 @@
 
     "shared": [
         "exports/shared.lua",
-        "configs/gameplay/initial.lua",
+        "configs/gameplay/index.lua",
         "configs/character/player.lua",
         "configs/character/character.lua",
         "configs/inventory/slots.lua",
         "configs/inventory/items.lua",
         "configs/inventory/inventory.lua",
-        "configs/map/todo.lua",
-        "configs/vehicle/todo.lua"
+        "configs/map/index.lua",
+        "configs/weapon/index.lua",
+        "configs/vehicle/index.lua"
     ],
 
     "client": [],

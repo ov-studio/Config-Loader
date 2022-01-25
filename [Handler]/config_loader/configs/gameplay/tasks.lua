@@ -1,19 +1,25 @@
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configurations: config_tasks.lua
+     Script: configs: gameplay: tasks.lua
      Author: vStudio
      Developer(s): Tron
      DOC: 25/01/2022
-     Desc: Task Confign's ]]--
+     Desc: Tasks Configns ]]--
 ----------------------------------------------------------------
 
 
-------------------------
---[[ Configurations ]]--
-------------------------
+------------------
+--[[ Configns ]]--
+------------------
 
-configVariables["Task"] = {
+configVariables["Tasks"] = {
 
-    ["vehicle_refilling"] = 0.5*30*1000
+    ["Reviving"] = {
+        duration = 20*1000
+    },
+
+    ["Refueling"] = {
+        duration = 30*1000
+    }
 
 }

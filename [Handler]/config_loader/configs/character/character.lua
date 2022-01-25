@@ -1,21 +1,23 @@
-
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configurations: config_character.lua
-     Server: ᴏᴠ | Halo:Combat
-     Author: OvileAmriam
-     Developer: -
-     DOC: 11/06/2021 (OvileAmriam)
-     Desc: Character Data's Confign ]]--
+     Script: configs: character: character.lua
+     Author: vStudio
+     Developer(s): Tron
+     DOC: 25/01/2022
+     Desc: Character Configns ]]--
 ----------------------------------------------------------------
 
 
 ------------------------
---[[ Configurations ]]--
-------------------------
+--[[ Configns ]]--------------------------
 
 configVariables["Character"] = {
 
-    "blood"
+    ["Datas"] = {
+        "blood",
+        "armor",
+        "thirst",
+        "hunger"
+    }
 
 }

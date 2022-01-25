@@ -1,19 +1,15 @@
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configs: character: player.lua
+     Script: configs: vehicle: index.lua
      Author: vStudio
      Developer(s): Tron
      DOC: 25/01/2022
-     Desc: Player Configns ]]--
+     Desc: Vehicle Configns ]]--
 ----------------------------------------------------------------
 
 
-------------------------
---[[ Configurations ]]--
-------------------------
+------------------
+--[[ Configns ]]--
+------------------
 
-configVariables["Player"] = {
-
-    ["Datas"] = {}
-
-}
+configVariables["Vehicles"] = {}

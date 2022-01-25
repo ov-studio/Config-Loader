@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configurations: config_items.lua
+     Script: configs: config_items.lua
      Server: ᴏᴠ | Halo:Combat
      Author: OvileAmriam
      Developer: -

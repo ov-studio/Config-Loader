@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configurations: config_inventory.lua
+     Script: configs: config_inventory.lua
      Author: vStudio
      Developer(s): Tron
      DOC: 25/01/2022

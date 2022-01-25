@@ -1,7 +1,7 @@
 
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configurations: config_slots.lua
+     Script: configs: config_slots.lua
      Server: ᴏᴠ | Halo:Combat
      Author: OvileAmriam
      Developer: -
