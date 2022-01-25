@@ -1,12 +1,10 @@
-
 ----------------------------------------------------------------
 --[[ Resource: Config Loader
-     Script: configs: config_slots.lua
-     Server: ᴏᴠ | Halo:Combat
-     Author: OvileAmriam
-     Developer: -
-     DOC: 11/06/2021 (OvileAmriam)
-     Desc: Character Slot's Confign ]]--
+     Script: configs: inventory: slots.lua
+     Author: vStudio
+     Developer(s): Tron
+     DOC: 25/01/2022
+     Desc: Inventory Slots Configns ]]--
 ----------------------------------------------------------------
 
 
@@ -16,19 +14,28 @@
 
 configVariables["Inventory"]["Slots"] = {
 
-    ["primary"] = {
-        itemCategory = "primary_weapon",
+    ["Primary"] = {
         isWeaponSlot = true
     },
 
-    ["secondary"] = {
-        itemCategory = "secondary_weapon",
+    ["Secondary"] = {
         isWeaponSlot = true
     },
 
-    ["tertiary"] = {
-        itemCategory = "melee_weapon",
+    ["Tertiary"] = {
         isWeaponSlot = true
+    },
+
+    ["Helmet"] = {
+        isHelmetSlot = true
+    },
+
+    ["Armor"] = {
+        isArmorSlot = true
+    },
+
+    ["Backpack"] = {
+        isBackpackSlot = true
     }
 
 }
