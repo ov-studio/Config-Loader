@@ -1,0 +1,27 @@
+{
+    "asset": [
+        "name": "Config Loader",
+        "owner": "vStudio",
+        "type": "Handler",
+        "version": "1.0.0"
+    ],
+
+    "exports": [
+        "getConfig"
+    ],
+
+    "shared": [
+        "exports/shared.lua",
+        "configurations/initial.lua",
+        "configurations/config_player.lua",
+        "configurations/config_character.lua",
+        "configurations/config_slots.lua",
+        "configurations/config_tasks.lua",
+        "configurations/config_items.lua",
+        "configurations/config_inventory.lua"
+    ],
+
+    "client": [],
+
+    "server": []
+}
