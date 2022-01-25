@@ -12,7 +12,7 @@
 --[[ Configns ]]--
 ------------------
 
-configVariables = {
+configVars = {
 
     ["Game"] = {
         ["FPS_Limit"] = 200,

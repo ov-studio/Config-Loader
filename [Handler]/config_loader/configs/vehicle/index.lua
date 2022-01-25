@@ -12,4 +12,4 @@
 --[[ Configns ]]--
 ------------------
 
-configVariables["Vehicles"] = {}
+configVars["Vehicles"] = {}

@@ -12,7 +12,7 @@
 --[[ Configns ]]--
 ------------------
 
-configVariables["Tasks"] = {
+configVars["Tasks"] = {
 
     ["Reviving"] = {
         ["Duration"] = 20*1000

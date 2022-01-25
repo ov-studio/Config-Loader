@@ -12,4 +12,4 @@
 --[[ Configns ]]--
 ------------------
 
-configVariables["Weapons"] = {}
+configVars["Weapons"] = {}

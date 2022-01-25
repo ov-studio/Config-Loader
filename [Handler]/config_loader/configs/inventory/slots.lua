@@ -8,11 +8,11 @@
 ----------------------------------------------------------------
 
 
-------------------------
---[[ Configurations ]]--
-------------------------
+------------------
+--[[ Configns ]]--
+------------------
 
-configVariables["Inventory"]["Slots"] = {
+configVars["Inventory"]["Slots"] = {
 
     ["Primary"] = {
         isWeaponSlot = true

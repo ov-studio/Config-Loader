@@ -12,4 +12,4 @@
 --[[ Configns ]]--
 ------------------
 
-configVariables["Maps"] = {}
+configVars["Maps"] = {}

@@ -15,7 +15,9 @@
 function getConfig(...)
 
     local indexes = {...}
-    local currentPointer = configVariables
+    local currentPointer = configVars
+    if #indexes <= 1 then return false end
+
     for i, j in ipairs(indexes) do
         if j then
             currentPointer = currentPointer[j]
