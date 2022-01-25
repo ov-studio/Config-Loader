@@ -7,7 +7,9 @@
     ],
 
     "exports": [
-        "getConfig"
+        "shared": [
+            "getConfig"
+        ]
     ],
 
     "shared": [
@@ -22,9 +24,5 @@
         "configs/map/index.lua",
         "configs/weapon/index.lua",
         "configs/vehicle/index.lua"
-    ],
-
-    "client": [],
-
-    "server": []
+    ]
 }
