@@ -14,4 +14,4 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["player_datas"] = {}
+configVariables["Player"] = {}

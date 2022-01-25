@@ -14,7 +14,7 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["character_datas"] = {
+configVariables["Character"] = {
 
     "blood"
 

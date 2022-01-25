@@ -12,4 +12,4 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["config_inventory"] = {}
+configVariables["Inventory"] = {}

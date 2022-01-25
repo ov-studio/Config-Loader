@@ -12,7 +12,7 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["config_tasks"] = {
+configVariables["Task"] = {
 
     ["vehicle_refilling"] = 0.5*30*1000
 
