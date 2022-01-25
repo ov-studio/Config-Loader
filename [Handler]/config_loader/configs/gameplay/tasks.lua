@@ -15,11 +15,11 @@
 configVariables["Tasks"] = {
 
     ["Reviving"] = {
-        duration = 20*1000
+        ["Duration"] = 20*1000
     },
 
     ["Refueling"] = {
-        duration = 30*1000
+        ["Duration"] = 30*1000
     }
 
 }
