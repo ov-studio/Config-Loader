@@ -14,7 +14,7 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["Inventory_Slots"] = {
+configVariables["Inventory"]["Slots"] = {
 
     ["primary"] = {
         itemCategory = "primary_weapon",

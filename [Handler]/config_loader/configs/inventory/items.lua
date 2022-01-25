@@ -13,7 +13,7 @@
 --[[ Configurations ]]--
 ------------------------
 
-configVariables["Inventory_Items"] = {
+configVariables["Inventory"]["Items"] = {
 
     ["primary_weapon"] = {
         --Example
