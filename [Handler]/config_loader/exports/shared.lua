@@ -12,8 +12,20 @@
 --[[ Function: Retrieves Config ]]--
 ------------------------------------
 
-function getConfig(index)
+function getConfig(...)
 
-    return (index and configVariables[index]) or false
-    
+    local indexes = {...}
+    local currentPointer = configVariables
+    for i, j in ipairs(indexes) do
+        if j then
+            currentPointer = currentPointer[j]
+            if ((i < #indexes) and (not currentPointer or (type(currentPointer) ~= "table"))) then
+                return false
+            end
+        else
+            return false
+        end
+    end
+    return currentPointer
+
 end
