@@ -18,6 +18,7 @@
         "configs/inventory/slots.lua",
         "configs/inventory/items.lua",
         "configs/inventory/inventory.lua",
+        "configs/gameplay/tasks.lua",
         "configs/map/index.lua",
         "configs/weapon/index.lua",
         "configs/vehicle/index.lua"
